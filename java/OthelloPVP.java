@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class OthelloPVP extends JFrame {
+public class OthelloPvP extends JFrame {
     // Othello Joueur contre Joueur
     private static JButton[][] boardButtons;
     private JLabel blackScoreLabel;
@@ -18,7 +18,7 @@ public class OthelloPVP extends JFrame {
     private static boolean buttonClicked;
     private static Point clique; //Bouton cliqué
 
-    public OthelloPVP() {
+    public OthelloPvP() {
         setTitle("Othello");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 500);
@@ -107,9 +107,8 @@ public class OthelloPVP extends JFrame {
     }
 
     public static void main(String[] args) {
-        OthelloPVP gui = new OthelloPVP();
+        OthelloPvP gui = new OthelloPvP();
         Jeu j = new Jeu();
-        SearchNode root = null;
         HashMap<Point,ArrayList<Point>> coups = j.getJoueurNoir().coupPossible(j.getGrille());
         System.out.println("========================\n");
         System.out.println("\tOTHELLO\n");
