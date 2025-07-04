@@ -2,6 +2,10 @@
 
 Une intelligence artificielle pour jouer au jeu **Othello / Reversi**, développée en Java. Il est possible de faire du Joueur contre IA en fonction de plusieurs stratégies (minimax, évaluation heuristique, etc.). Un mode Joueur contre Joueur est également disponible.
 
+<p float="left">
+  <img src="img/gameplay.png" alt="gameplay" width="60%" />
+</p>
+
 ---
 
 ## Fonctionnalités principales
@@ -59,6 +63,10 @@ Score: Blanc 12 | Noir 14
 
 Coup joué: (4,5)
 ```
+
+<p float="left">
+  <img src="img/vod.gif" alt="vod" width="60%" />
+</p>
 
 ## Contribuer
 
