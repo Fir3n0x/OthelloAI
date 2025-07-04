@@ -1,6 +1,6 @@
 # OthelloAI
 
-Une intelligence artificielle pour jouer au jeu **Othello / Reversi**, développée en Java. Il est possible de faire du Joueur contre IA en fonction de plusieurs stratégies (minimax, évaluation heuristique, etc.). Un mode Joueur contre Joueur est également disponible.
+Une intelligence artificielle pour jouer au jeu **Othello / Reversi**, développée en Java. Il est possible de faire du Joueur contre IA ou du IA contre IA en fonction de plusieurs stratégies (minimax, évaluation heuristique, etc.). Un mode Joueur contre Joueur est également disponible.
 
 <p align="center">
   <img src="img/gameplay.png" alt="gameplay" width="60%" />
@@ -32,18 +32,23 @@ $ cd OthelloAI
 $ javac src/*.java
 
 # 3) Lancer la partie
-$ java src/OthelloGUI
-ou
 $ java src/OthelloPVP
+ou
+$ java src/OthelloPvIA
+ou
+$ java src/OthelloIAvIA
+
 ```
 
 ---
 
 ## Utilisation
 
-Le programme propose le mode :
+Le programme propose les modes :
 
+* Humain vs Humain
 * Humain vs IA
+* IA vs IA
 
 Exemple d’affichage console :
 
@@ -92,9 +97,11 @@ Java Othello AI using minimax + alpha‑beta pruning. CLI interface. Play agains
 
 ```bash
 javac src/*.java
-java src/OthelloGUI
+$ java src/OthelloPVP
 or
-java src/OthelloPVP
+$ java src/OthelloPvIA
+or
+$ java src/OthelloIAvIA
 ```
 
 Heuristic and depth are customizable.
