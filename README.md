@@ -85,6 +85,14 @@ Merci de respecter la structure du code existant et de tester toute nouvelle fon
 
 ---
 
+## Author
+
+**Corentin Mahieu** – [@Fir3n0x](https://github.com/Fir3n0x)
+
+**Jeremy Brunet**
+
+---
+
 ## ℹ️ Remarques
 
 Ce projet est un exercice personnel visant à expérimenter des algorithmes d’IA sur un jeu stratégique bien défini. Il peut être utilisé à des fins pédagogiques ou de benchmark.
