@@ -85,6 +85,12 @@ Merci de respecter la structure du code existant et de tester toute nouvelle fon
 
 ---
 
+## License
+
+Ce projet est publié sous une licence MIT.
+
+---
+
 ## Author
 
 **Corentin Mahieu** – [@Fir3n0x](https://github.com/Fir3n0x)
